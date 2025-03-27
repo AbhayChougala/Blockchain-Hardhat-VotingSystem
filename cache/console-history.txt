@@ -1,0 +1,10 @@
+const candidate0 = await voting.getCandidate(0);
+// For example, check candidate details:
+const voting = await Voting.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const Voting = await ethers.getContractFactory("Voting");
+const Voting = await ethers.getContractFactory("Voting");const voting = await Voting.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");// For example, check candidate details:const candidate0 = await voting.getCandidate(0);console.log(candidate0);
+console.log(candidate0);
+const candidate0 = await voting.getCandidate(0);
+// For example, check candidate details:
+const voting = await Voting.attach("YOUR_DEPLOYED_ADDRESS");
+const Voting = await ethers.getContractFactory("Voting");
